@@ -12,7 +12,6 @@ import time
 import requests
 from streamlit_lottie import st_lottie
 import json
-import streamlit_authenticator as stauth
 import matplotlib.pyplot as plt 
 
 # Streamlit Style Settings
