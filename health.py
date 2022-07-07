@@ -24,7 +24,7 @@ def webapp_style():
                             visibility: hidden;
                             }
                     footer:after {
-                                content:'Made by Zainab Hodroj ❤️'; 
+                                content:'Made by Zainab Hodroj'; 
                                 visibility: visible;
                                 display: block;
                                 position: relative;
@@ -102,6 +102,7 @@ if menu_id == 'Home':
         st.title('Mental Health in Tech')
         st.write('Mental health is a state of mental well-being that enables people to cope with the stresses of life, realize their abilities, learn well and work well, and contribute to their community. It is an integral component of health and well-being that underpins our individual and collective abilities to make decisions, build relationships and shape the world we live in. Mental health is a basic human right. And it is crucial to personal, community and socio-economic development.')
         st.write("It is more than the absence of mental disorders. It exists on a complex continuum, which is experienced differently from one person to the next, with varying degrees of difficulty and distress and potentially very different social and clinical outcomes.")
+        st.write("According to the CDC, depression causes 200 million lost workdays each year which add a cost to employers ranging from 17 to $44 billion dollars")
         m = st.markdown("""
         <style>
             div.stButton > button:first-child {
