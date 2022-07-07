@@ -220,8 +220,8 @@ if menu_id == 'EDA':
         plt.xlabel('Response', size = 12)
         plt.ylabel('Number of Participants', size = 12)
         st.pyplot(plt)
-        st.write("42% are currently suffering from a mental disorder or have suffered in the past.")
-        st.write("29% are unsure if they have ever suffered from a mental disorder in the past/at present.")
+        st.write("140 participants are currently suffering from a mental disorder or have suffered in the past.")
+        st.write("Around 25 participants are unsure if they have ever suffered from a mental disorder in the past or present.")
     
     with col2:  
         # Coverage
