@@ -390,7 +390,7 @@ if menu_id == 'MHD Prediction':
     col1, col2 = st.columns((1,1))
     with col1:
         st.write("""Mental health disorders (MHD) are spread everywhere. Nearly 800 million people live with an MHD. It is therefore not surprising that MHDs are essential axes of global health. 
-                 [Check Out the dataset here](https://www.kaggle.com/datasets/osmihelp/osmi-mental-health-in-tech-survey-2019)""")
+                 [Check Out the dataset here](https://www.kaggle.com/datasets/osmi/mental-health-in-tech-2016)""")
         st.write("We have created a model that targets the recognition of mental health disorders. It will help assess the risk of whether an individual currently has MHD or not. But will not replace seeking medical attention.")
         #adding animation and figures to the right column
     with col2:
